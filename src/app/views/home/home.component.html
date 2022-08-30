@@ -1,0 +1,140 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Game Mania</title>
+    <!-- <script src="js/jquery-v3.6.0.min.js"defer></script> -->
+    <!-- <script src="js/script.js"defer></script> -->
+
+
+</head>
+
+           <!-- CABECALHO (LOGO E ICONS) -->
+
+    
+
+            <!-- BANNER PRINCIPAL -->
+
+<body>
+    <main>
+        <section id="carossel">
+            <div id="carousel" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/imagens/banner1.jpg" id="carr1" width="100%" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" id="carr2">
+                    <img src="assets/imagens/tela.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" id="carr3">
+                    <img src="assets/imagens/tela1.jpeg" width="80%" class="d-block w-100" alt="...">
+                </div>
+                </div>
+          </div>
+        </section>
+    </main>
+
+         <!-- SESSAO DESTAQUES E PRODUTOS -->
+
+    <section>
+        <a id="destques">Destaques</a>
+    <figure class="bannerprodutos">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="temp">
+                <a href="#"><img src="assets/imagens/headphone.png" width="20%" id="headphone-class" d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/notbook.png" width="20%" id="notebook-class"d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/telepone.png" width="20%" id="telephone-class" d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/play.png" width="20%" id="pagina2-class" d-block w-100 alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/imagens/tecla.png" width="20%" id="pagina2-class" d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/som.png" width="20%" id="pagina2-class" d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/mouse.png" width="20%" id="mouse" d-block w-100 alt="..."></a>
+                <a href="#"><img src="assets/imagens/cadeira.png" width="20%" id="pagina2-class" d-block w-100 alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <img src="assets/imagens/seta.png" id="seta1" aria-hidden="true">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <img src="assets/imagens/seta2.png" id="seta2" aria-hidden="true">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </figure>      
+    </section>
+
+             <!-- SESSAO DE VEJA MAIS ATIVIDADES -->
+
+    <section>
+        <ul id="quadrado">
+            <a id="quadvermelho">Diversão</a>
+            <a id="quadvermelho" >PC Gamer</a>
+            <a id="quadvermelho" >Trabalho</a>
+        </ul>
+        <ul id="quadrado">
+            <a id="quadvermelho" >Peças</a>
+            <a id="quadvermelho" >Áudio</a>
+            <a id="quadvermelho" >Monitores</a>
+        </ul>
+    </section>
+
+              <!-- SESSAO PESQUISA E REDES SOCIAIS -->
+
+    <section>
+        <div>
+            <img src="assets/imagens/bannersessao1.svg" id="bannerpromo"
+                 alt="banner promocao" width="100%"> 
+            <ul>
+                <a id="tituloredes">Nós acompanhe em nossas redes sociais</a>
+            </ul>
+            <figure class="imagensredes"> 
+                <a href="#"><img src="assets/imagens/facebo.png" id="facerede"
+                     alt="face imagem" width="110%"></a>
+                <a href="#"><img src="assets/imagens/tww.png" id="twitterede"
+                     alt="twitter imagem" width="110%"></a>
+                <a href="#"><img src="assets/imagens/iconinst.png" id="instarede"
+                     alt="insta imagem" width="110%"></a>
+                <a href="#"><img src="assets/imagens/youu.png" id="youturede"
+                     alt="assets/youtube imagem" width="110%"></a>
+            </figure>
+        </div>
+
+        
+            <!-- SESSAO DO CADASTRO E ENDEREÇO -->
+
+            <div class="coracao">
+                <img src="assets/imagens/linha1.png" width="50%" alt="linha" id="linhal">
+                <img src="assets/imagens/coracao.png" width="65%"
+                     alt="coracao imagem">
+                <img src="assets/imagens/linha2.png" width="50%" alt="linha" id="linhar">
+                <ul  id="titlecadastro">
+                    <a>Fique por dentro!</a>
+                </ul>
+            </div>
+            <div class="cadastro">
+                <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                    <input for="nome" id="barra" ngModel type="text" name="nome" ngModel placeholder="seu nome..." maxlength="50" required autocomplete>
+                    <input for="email" ngModel type="email" id="barra" name="email" ngModel placeholder="seu email" maxlength="50" required autocomplete>
+                    <button id="botao" type="submit">Cadastrar</button>
+                </form>
+            </div>
+            <div class="endereco">
+                <a id="titleend">Onde nós encontrar</a>
+                <ul id="text">
+                    <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum.</a>
+                        <br>
+                    <a>Sed put perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consecuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</a>
+                </ul>
+                <figure>
+                    <img src="assets/imagens/bannersesao2.svg" id="baner2"
+                         alt="banner 2 promocao" width="100%">
+                </figure>
+            </div>
+        </section>
+</body>
+
+        

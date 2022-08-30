@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+
+
+#clik {
+    text-decoration: none;
+    color: white;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

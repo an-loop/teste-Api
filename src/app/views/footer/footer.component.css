@@ -1,0 +1,152 @@
+
+            /* RODAPE */
+
+            footer{
+                position: relative;
+                background-color: #242424;
+            }
+            
+            .divfooter {
+                height: 513.72px;
+                margin-top: -16px;
+                
+                background: linear-gradient(180deg, #830000 0%, rgba(131, 0, 0, 0) 100%);
+            }
+            
+            #tituloinst {
+                position: relative;
+                width: 243.73px;
+                height: 52.24px;
+                left: 25px;
+                top: 50px;
+                font-style: normal; 
+                font-weight: 400;
+                font-size: 40px;
+            
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 50px;
+            }
+            
+            #tituloatend {
+                position: relative;
+                width: 259.69px;
+                height: 52.24px;
+                left: 520px;
+                bottom: 150px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+            
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            
+            #texto2 {
+                position: relative;
+                width: 335px;
+                height: 142px;
+                left: 500px;
+                bottom: 140px;
+            
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #titulofaq {
+                position: relative;
+                width: 243.73px;
+                height: 52.24px;
+                right: 17px;
+                font-style: normal; 
+                font-weight: 400;
+                font-size: 40px;
+            
+                display: flex;
+                justify-content: center;
+            }
+            
+            #faq:hover {
+                color: #242424;
+                text-decoration: none;
+            }
+            
+            .text {
+                position: relative;
+                width: 350px;
+                height: 140px;
+                left: 35px;
+                top: 25px;
+                color: #FFFFFF;
+                text-decoration: none;
+            
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                display: flex;
+                text-align: justify;
+                flex-direction: column;
+            }
+            
+            .pergufaq {
+                position: relative;
+                width: 251.18px;
+                height: 36.76px;
+                left: 70px;
+                top: 2px;
+                color: #FFFFFF;
+                text-decoration: none;
+            
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                display: flex;
+                align-items: center;
+            }
+            
+            #logofooter {
+                position: relative;
+                margin-right: 45px;
+                bottom: 300px;
+                width: 300px;
+                height: 150px;
+            }
+            
+            .imgfooter {
+                display: flex;
+                flex-direction: column;
+                margin-left: 500px;
+            }
+            
+            #redesocial {
+                position: relative;
+                margin-right: 25px;
+                width: 73px;
+                height: 66px;
+                bottom: 200px;
+                border-radius: 15px;
+            }
+            
+            #social {
+                position: relative;
+                margin-right: 30px;
+                width: 73px;
+                bottom: 180px;
+                height: 66px;
+                border-radius: 15px;
+            }
+            
+            /* #rodape {
+                position: absolute;
+                
+            } */

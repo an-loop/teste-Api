@@ -1,0 +1,24 @@
+<main>
+
+    <div class="card" id="card1">
+        <div class="card-body" id="card2">
+    <ul>
+        <h1>Faça seu login aqui!</h1>
+    </ul>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <ul class="usuario">
+        <!-- <input for="nome" id="nome" name="nome" ngModel type="text" placeholder="Seu nome..." maxlength="50" required autocomplete> -->
+        <input for="email" id="email" name="email" ngModel type="email" placeholder="Seu email..." maxlength="50" required autocomplete>
+        <input for="senha" id="senha" name="senha" ngModel type="password" placeholder="Sua senha" maxlength="50" required autocomplete>
+        <button type="submit" id="botao">
+            <h2 id="entre" >Entrar</h2>
+        </button>
+        </ul>
+    </form>
+    <ul>
+        <a id="cadastro">Ainda não é cadastrado?</a>
+        <a id="cadastro"  href="cadastro">Clique Aqui</a>
+    </ul>
+        </div>
+      </div>
+</main>

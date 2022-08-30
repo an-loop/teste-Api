@@ -1,0 +1,109 @@
+header{
+    background-color: black;
+}
+
+.menu {
+    background-color: #830000;
+    font-weight: 6px;
+    font-size: 25px;
+    line-height: 44px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#textcadas {
+    padding: 5px 17px;
+    color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transition: all .5s;
+    border-radius: 20px;
+    bottom: 0.1px;
+    right: 73px;
+    background-color: #830000;
+}
+
+#logodoavatar {
+    margin-top: 50px;
+    margin-right:10px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#fone {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+header a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 55px;
+}
+
+#logo {
+    left: 133.82px;
+    top: -16px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: 280px;
+}
+
+.menu_top {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: flex-end;
+}
+
+#campodebusca {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 650px;
+}
+
+#pesquisa {
+    position: absolute;
+    width: 400px;
+    height: 28px;   
+    background: rgba(255, 255, 255, 0.58);
+    border-radius: 50px;
+}
+
+#pesquisa::placeholder {
+    color: #FFFFFF;
+    padding: 50px 60px 14px;
+}
+
+.inpt {
+    border: none;   
+    padding: 5px 50px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#busca {
+    position: absolute;
+    font-weight: 40px;
+    margin-left: 180px;
+}

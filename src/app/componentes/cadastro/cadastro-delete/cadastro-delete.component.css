@@ -1,0 +1,74 @@
+main {
+    background-color: black;
+}
+
+.cabeca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+
+#cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#userbtn, #senhabtn, #emailbtn {
+    font-size: 25px;
+    margin: 40px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input::placeholder {
+    font-size: 20px;
+    padding: 30px;
+}
+
+input:hover{
+    background-color: aliceblue;
+}
+
+input {
+    margin-top: 9px;
+    width: 550px;
+    height: 50px;
+    color: #242424;
+    font-size: 20px;
+}
+
+#botao3 {
+    margin-left: 50px;
+    background-color: #830000;
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+#botao, #botao2 {
+    font-size: 18px;
+    margin-left: 50px;
+    background-color: #830000;
+    height: 60px;
+    width: 130px;
+    border-radius: 100px;
+}
+
+.buttonsbtn {
+    margin-right: 50px;
+}
